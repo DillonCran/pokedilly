@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedilly</title>
+
+    <!-- CSS and Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="pokedilly.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav data-bs-theme="dark" class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Icon</a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Sets (Standard)
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><span class="badge bg-secondary">OBF</span> Obsidian Flame</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="C:\Users\DillonCran\OneDrive - Attabotics\Desktop\Study\Web Development Project\pokedilly\paldea_evolved_set.html"
+                  ><span class="badge bg-secondary">PaE</span> Paldea Evolved</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><span class="badge bg-secondary">S&V</span> Scarlet &
+                  Violet</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Tournaments
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">Latest Tourney Results</a>
+              </li>
+              <li><a class="dropdown-item" href="#">All Tourneys</a></li>
+              <li><a class="dropdown-item" href="#">Event FinderS</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Deck Lists
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Current Meta</a></li>
+              <li><a class="dropdown-item" href="#">All Decklists</a></li>
+              <li><a class="dropdown-item" href="#">Deck Builder</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Carousel/picture -->
+    <div class="container-fluid">
+      <img
+        id="title-image"
+        src="C:\Users\DillonCran\OneDrive - Attabotics\Desktop\Study\Web Development Project\pokedilly\images\growlithe.webp"
+        alt="Growlithe image"
+        class="rounded mx-auto d-block"
+      />
+      <h3>
+        Welcome to Pokedilly! The aim of this site is to provide a responsive
+        and utility for pokemon TCG
+      </h3>
+      <p>
+        I create and update this site myself, if you would like to know more or
+        have questions/suggestions please feel free to reach out in the contact
+        section
+      </p>
+    </div>
+
+    <!-- 4span images with text about topics under it x/x/x -->
+    <div class="container-fluid row">
+      <div class="card text-bg-dark col-sm-6 col-lg-4">
+        <img
+          src="C:\Users\DillonCran\OneDrive - Attabotics\Desktop\Study\Web Development Project\pokedilly\images\obsidian_flame_promo.avif"
+          class="card-img"
+          alt="obsidian_flame_promo"
+        />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Newest Set List!</h5>
+          <p class="card-text">Obsidian Flame</p>
+          <p class="card-text"><small>Last updated DD/MM/YY</small></p>
+        </div>
+      </div>
+      <div class="card text-bg-dark col-sm-6 col-lg-4">
+        <img src="..." class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Latest Tourney Results</h5>
+          <p class="card-text">Internationals - Columbus,Ohio</p>
+          <p class="card-text"><small>Last updated dd/mm/yy</small></p>
+        </div>
+      </div>
+      <div class="card text-bg-dark col-sm-6 col-lg-4">
+        <img src="..." class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Deck Builder!</h5>
+          <p class="card-text">Maybe?</p>
+          <p class="card-text"><small>Last updated dd/mm/yy</small></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS and jQuery -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="pokedilly.js"></script>
+  </body>
+</html>

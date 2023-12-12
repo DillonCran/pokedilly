@@ -1,0 +1,122 @@
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+}
+
+/* Cards */
+.card {
+  padding: 5px;
+  border: 1px solid #323232;
+  background-color: #323232;
+  color: rgba(255, 255, 255, 0.711);
+}
+
+/* Hidden Elements */
+.hidden {
+  display: none;
+}
+
+/* Filter Label */
+#filterLabel:hover {
+  color: blue;
+}
+
+/* Body */
+body {
+  background-color: #323232;
+  color: rgba(255, 255, 255, 0.711);
+  padding-left: 300px;
+}
+
+/* Title Image */
+#title-image {
+  object-fit: fill;
+  width: 500px;
+  align-content: center;
+}
+
+/* Card Search Input */
+#cardSearch {
+  width: 900%;
+  max-width: none !important;
+}
+
+/* Buttons */
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #323232;
+  color: rgba(255, 255, 255, 0.711);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* List Space */
+.listspace {
+  padding-bottom: 10px;
+}
+
+/* List Row Colors */
+li.even .row {
+  background: #76767623;
+}
+
+li.odd .row {
+  background: #616161f6;
+}
+
+/* Sidebar */
+.col-md-3,
+.navbar-vertical {
+  width: 300px;
+  height: 100vh;
+}
+
+.navbar-vertical {
+  background-color: #333;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.navbar-vertical .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.navbar-vertical .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-vertical .navbar-brand {
+  font-size: inherit;
+  padding: 0;
+}
+
+.navbar-vertical .navbar-nav-column {
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: left;
+}
+
+/* Left Aligned Dropdown */
+.left-aligned-dropdown {
+  align-content: left;
+}
+
+.dropdown-menu {
+  z-index: 2;
+  
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  z-index: 3;
+}
